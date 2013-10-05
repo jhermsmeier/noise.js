@@ -1,0 +1,21 @@
+{
+  
+  "name": "noise",
+  "version": "0.0.0",
+  
+  "main": [
+    "noise.lib.js"
+  ],
+  
+  "ignore": [
+    "noise.js",
+    "lib",
+    "node_modules",
+    "benchmark",
+    ".*"
+  ],
+  
+  "dependencies": {},
+  "devDependencies": {}
+  
+}
