@@ -12,6 +12,7 @@
     "lib",
     "node_modules",
     "benchmark",
+    "test",
     ".*"
   ],
   
