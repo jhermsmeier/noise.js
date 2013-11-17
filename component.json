@@ -9,6 +9,8 @@
   ],
   "dependencies": {},
   "scripts": [
-    "noise.js"
+    "noise.js",
+    "lib/perlin.js",
+    "lib/simplex.js"
   ]
 }
