@@ -1,0 +1,14 @@
+{
+  "name": "noise",
+  "repo": "jhermsmeier/noise.js",
+  "description": "Collection of noise functions",
+  "version": "0.1.0",
+  "keywords": [
+    "noise",
+    "simplex", "perlin"
+  ],
+  "dependencies": {},
+  "scripts": [
+    "noise.js"
+  ]
+}
