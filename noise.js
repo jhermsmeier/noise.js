@@ -17,19 +17,19 @@ module.exports = Noise
 Noise._RNG = Math
 
 // Colors
-Noise.White = NOIMPL
-Noise.Pink = NOIMPL
-Noise.Brown = NOIMPL
-Noise.Blue = NOIMPL
+Noise.White  = NOIMPL
+Noise.Pink   = NOIMPL
+Noise.Brown  = NOIMPL
+Noise.Blue   = NOIMPL
 Noise.Violet = NOIMPL
-Noise.Grey = NOIMPL
+Noise.Grey   = NOIMPL
 
-// ...
-Noise.Perlin = require( './lib/perlin' )
+// Spatial
+Noise.Perlin  = require( './lib/perlin' )
 Noise.Simplex = require( './lib/simplex' )
-Noise.Worley = NOIMPL
+Noise.Worley  = NOIMPL
 Noise.Wavelet = NOIMPL
-Noise.Cell = NOIMPL
+Noise.Cell    = NOIMPL
 
 /**
  * Noise prototype
