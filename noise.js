@@ -36,13 +36,13 @@ Noise.Cell    = NOIMPL
  * @type {Object}
  */
 Noise.prototype = {
-  
+
   constructor: Noise,
-  
+
   generate: function( x, y, z, w ) {
     return this[
       'generate' + arguments.length + 'D'
     ].apply( this, arguments )
   }
-  
+
 }
