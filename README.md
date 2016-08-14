@@ -1,22 +1,13 @@
-# Noise [ ATTENTION: WIP ]
+# Noise
+[![npm](https://img.shields.io/npm/v/noise.svg?style=flat-square)](https://npmjs.com/noise)
+[![npm license](https://img.shields.io/npm/l/noise.svg?style=flat-square)](https://npmjs.com/noise)
+[![npm downloads](https://img.shields.io/npm/dm/noise.svg?style=flat-square)](https://npmjs.com/noise)
+[![build status](https://img.shields.io/travis/jhermsmeier/noise.js.svg?style=flat-square)](https://travis-ci.org/jhermsmeier/noise.js)
 
+Collection of noise functions
 
-## Install via [npm](https://npmjs.org/)
+## Install via [npm](https://npmjs.com)
 
-```shell
+```sh
 $ npm install noise
-```
-
-
-## Install via [component](http://github.com/component/)
-
-```shell
-$ component install jhermsmeier/noise.js
-```
-
-
-## Install via [bower](http://twitter.github.com/bower/)
-
-```shell
-$ bower install noise
 ```
