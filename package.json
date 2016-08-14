@@ -1,40 +1,33 @@
 {
-  
   "name": "noise",
   "version": "0.1.0",
-  "license": "MIT",
   "description": "Collection of noise functions",
-  "kewords": [
-    "noise", "simplex", "perlin"
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de)",
+  "license": "MIT",
+  "keywords": [
+    "noise",
+    "simplex",
+    "perlin"
   ],
-  
-  "author": {
-    "name": "Jonas Hermsmeier",
-    "email": "jhermsmeier@gmail.com",
-    "url": "https://github.com/jhermsmeier"
-  },
-  
-  "main": "noise",
-  
-  "scripts": {
-    "test": "node node_modules/mocha/bin/mocha",
-    "bench": "node node_modules/matcha/bin/matcha"
-  },
-  
+  "main": "noise.js",
   "dependencies": {},
-  
   "devDependencies": {
-    "mocha": "",
-    "matcha": ""
+    "matcha": "~0.7.0",
+    "mocha": "~3.0.2"
   },
-  
+  "homepage": "https://github.com/jhermsmeier/noise.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jhermsmeier/noise.js.git"
+    "url": "git+https://github.com/jhermsmeier/noise.js.git"
   },
-  
   "bugs": {
     "url": "https://github.com/jhermsmeier/noise.js/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --ui tdd",
+    "bench": "matcha"
   }
-  
 }
